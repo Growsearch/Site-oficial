@@ -1,0 +1,358 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    /*font-family: 'Red Hat Mono', monospace;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*background-image: linear-gradient(rgb(255, 255, 255), rgba(9, 7, 34, 0.795), rgb(255, 255, 255));*/
+    background-image: linear-gradient(#11181E , #1b2024);
+}
+
+.header{
+    background-color: #11181E;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header>a{
+    color: #fff;
+}
+.menu{
+    color: #fff;
+    display: flex;
+    padding-right: 20px;
+}
+
+.menu>li{
+    margin-left: 12px;
+    list-style: none;
+    font: solid;
+}
+
+.menu>li>a{
+    display: block;
+    padding: 10px;
+    background-color: #00FF22;
+    border-radius: 10px;
+    color: #11181E;
+    text-decoration: none;
+}
+
+main#container{
+   /* max-width: 100px 10px 100px 10px;*/
+  
+    background-image: url(imagens-do-site/futuristico.png);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    border-top: 12px groove #00FF22;
+    
+}
+
+.info{
+    font-size: 2.5rem;
+    color: #fff;
+    max-width: 400px;
+    padding: 50px 20px 100px 20px ;
+    text-shadow: 2px 2px 2px #000;
+    line-height: 40px;
+}
+.frase{
+    max-width: 400px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+#conteudo{
+    background-image: linear-gradient(#11181E , #292b2e , #626364);
+    /*essa class servirá caso queira colocar algum background-image no fundo. */
+     border-bottom: 10px groove #00FF22;
+     padding-bottom: 30px;
+    }
+
+.primeirobox{  /*a parte do quem somos nós(esquerda da tela e primeira no mobile)*/
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.primeirobox>h3{
+    line-height: 30px;
+}
+
+h2#bemvindo{
+    text-shadow: 2px 2px 5px  grey;
+    font-size: 2rem;
+    margin-bottom: 20px; 
+    color: #00FF22;
+    background-color: rgb(4, 4, 24);
+    border:  groove #60ee73;
+    border-radius: 10px;
+}
+
+.flexbox1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+
+#quemsomos{
+    background-color: #8b8b8b;
+    color: #fff;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgb(44, 44, 44);
+    margin-bottom: 20px;
+    border: groove 5px #050918;
+    max-width: 350px;
+    height: 100%;
+}
+#quemsomos>h1{
+    text-align: justify;
+    height: 30px;
+    text-shadow: 2px 2px 5px rgb(36, 36, 36);
+    font-size: 25px;
+    padding: 10px;
+    color: #00FF22;
+    /*color:  #01DB29*/;
+    text-shadow: 1px 1px 1px grey;
+    border: groove #00FF22;
+    border-radius: 10px;
+    background-color: rgb(4, 4, 24);
+}
+
+#quemsomos>p{
+    padding: 20px;
+    font-size:  20px;
+    color: rgb(44, 44, 44);
+}
+
+#quemsomos>a{
+    text-decoration: none;
+}
+
+#quemsomos>a>h3{
+   text-align: center;
+   padding: 10px 20px;
+   background-color: #fff;
+   border: groove #000;
+   border-radius: 20px;
+   box-shadow: 3px 3px 5px grey;
+   color: rgb(18, 139, 252);
+}
+
+
+.listas{
+    padding: 20px;
+    height: 100%;
+    /*background-color: #050918;*/
+    background-color: #8b8b8b;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 3px 3px 5px #000;
+    border: groove 5px #050918;
+    max-width: 350px;  
+}
+
+.listas>h2{
+    background-color: rgb(4, 4, 24);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: groove #00FF22;
+    border-radius: 10px;
+}
+.listas>ul>li>h3{
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.listas>ul>li>p{
+    color: black;
+    padding-top: 5px;
+}
+
+#flexbox-3{
+    border: groove 5px #00FF22;
+    border-radius: 10px;
+    background-color: #11181E;
+    padding: 20px;
+    max-width: 350px;
+    box-shadow: 5px 8px 5px rgb(26, 26, 26);
+}
+
+#flexbox-3>h2{
+    color: #11181E;
+    background-color: #8b8b8b;
+    padding: 10px;
+    border: groove #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#flexbox-3>p{
+    color: #fff;
+    line-height: 30px;
+}
+
+#tele-h3{
+    color: rgb(0, 195, 255);
+}
+#desv-etf{
+    color: crimson;
+}
+#guia-h3{
+    color: #00FF22;
+}
+#bonus-h3{
+    color: #fff;
+}
+#receitas-relatorios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    background-image: linear-gradient(#8b8b8b , #636363 , #2e2e2e);
+    padding: 20px;
+    border: groove #050918 3px ;
+    box-shadow: 5px 5px 5px #000;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.centralizar{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    padding: 30px; 
+    text-shadow: 2px 2px 2px grey; 
+}
+
+.botao-1{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #f4005e;
+    max-width: 500px;
+    border: groove 3px black;
+    border-radius: 50px;
+    max-width: 300px;
+}
+.botao-1>a{
+    color: #fff;
+    text-decoration: none;
+}
+.botao-2{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    border: groove 3px #000;
+    background-color: rgb(0, 195, 255);
+    border-radius: 50px;
+}
+.botao-2>a{
+    text-decoration: none;
+    color: #050918;
+}
+
+.cta-ebook{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border: groove 4px #8b8b8b;
+    border-radius: 30px;
+    justify-content: start;
+}
+
+#foto-ebook{
+    max-width: 300px;
+}
+
+#anunciando-ebook-home{
+    color: #d3d3d3;
+    padding-right: 20px;
+    max-width: 550px;
+    text-align: start;
+    
+}
+
+.botao-ebook{
+    grid-column: 2;
+    margin: auto;
+   margin-bottom: 20px;
+   padding: 20px;
+   text-decoration: none;
+   background-color: #00FF22;
+   border: double 5px #fff;
+   border-radius: 30px;
+}
+
+.apres-blog{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#imagens{
+    color: #050918;
+    text-shadow: 2px 2px 2px rgb(54, 54, 54);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+#imagens>div{
+
+    margin: 10px;
+}
+
+
+#imagens>div>p{
+    color: #fff;
+    background-color: rgb(5, 5, 31);
+    padding: 15px;
+    border: solid greenyellow;
+    border-radius: 15px;
+    max-width: 200px;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+footer:hover{
+   background-color: #01DB29;
+}
+
+@media ( max-width:600px) {
+    .cta-ebook{
+        grid-template-columns: repeat(1 , 2fr);
+        grid-column: 1;
+    }
+
+    #anunciando-ebook-home{
+        padding: 20px;
+    }
+
+    .botao-ebook{
+        grid-column: 1;
+    }
+
+}
