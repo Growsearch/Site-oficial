@@ -300,6 +300,8 @@ h2#bemvindo{
    background-color: #00FF22;
    border: double 5px #fff;
    border-radius: 30px;
+   text-decoration: none;
+   color: #11181E;
 }
 
 .apres-blog{
